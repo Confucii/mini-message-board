@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+}
+
+.messages {
+  padding: 10px;
+}
+
+.message {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="/new" method="post">
+      <div class="input">
+        <label for="name">Username</label>
+        <input type="text" minlength="3" required name="name" id="name" />
+      </div>
+      <div class="input">
+        <label for="message">Message</label>
+        <input type="text" minlength="3" required name="message" id="message" />
+      </div>
+      <button>Submit</button>
+    </form>
+    <a href="..">Back</a>
+  </body>
+</html>
